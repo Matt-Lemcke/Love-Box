@@ -113,8 +113,7 @@ Time getTime(){
 // Toggle heart LEDs for animation on call
 void heartLED()
 {
-  //6 for 6 months hehe
-  for(int jenpp = 0; jenpp<6; jenpp++){
+  for(int j = 0; j<6; j++){
     digitalWrite(D8, HIGH);
     digitalWrite(D4, LOW);
     digitalWrite(D5, LOW);
